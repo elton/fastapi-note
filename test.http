@@ -1,0 +1,8 @@
+POST http://localhost:8000/items HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "price": 34.56,
+    "tax": 10.55
+}
